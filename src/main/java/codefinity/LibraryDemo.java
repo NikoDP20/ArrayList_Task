@@ -18,8 +18,8 @@ public class LibraryDemo {
         System.out.println("\nAfter removing a book:");
         library.displayAllBooks();
 
-        System.out.println("\nBooks by author 'Joshua Bloch':");
-        List<Book> booksByAuthor = library.findBooksByAuthor("Joshua Bloch");
+        System.out.println("\nBooks by author 'Herbert Schildt':");
+        List<Book> booksByAuthor = library.findBooksByAuthor("Herbert Schildt");
         for (Book book : booksByAuthor) {
             System.out.println(book);
         }
